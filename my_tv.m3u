@@ -7,6 +7,14 @@ http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_KRASNODAR/variant.m3u8?vers
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
 https://stream.kuban24.tv:1500/hls/stream.m3u8
+#EXTINF:0,Звезда HD
+#EXTVLCOPT:http-user-agent=WINK/1.28.2
+#EXTVLCOPT:network-caching=333
+http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+#EXTINF:0,РЕН ТВ
+#EXTVLCOPT:http-user-agent=WINK/1.28.2
+#EXTVLCOPT:network-caching=333
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8?version=2
 #EXTINF:0,Первый канал HD
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
@@ -28,11 +36,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8?version=2
 #EXTVLCOPT:network-caching=333
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8?version=2
 #EXTINF:0,Россия Культура
-#EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
 http://radio-live-mg.rtr-vesti.ru/live/smil:russiak.smil/chunklist_b1600000.m3u8
 #EXTINF:0,Россия 24
-#EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
 http://radio-live-mg.rtr-vesti.ru/vgtrkrtmp/kuban_r24.smil/chunklist_b1200000.m3u8
 #EXTINF:0,ОТР
@@ -135,14 +141,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8?version=2&u
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8?version=2&uhd
-#EXTINF:0,Звезда HD
-#EXTVLCOPT:http-user-agent=WINK/1.28.2
-#EXTVLCOPT:network-caching=333
-http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:0,РЕН ТВ
-#EXTVLCOPT:http-user-agent=WINK/1.28.2
-#EXTVLCOPT:network-caching=333
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8?version=2
 #EXTINF:0,Bridge TV
 #EXTVLCOPT:http-user-agent="Dalvik/2.1.0 (Linux; U; Android 6.0.1;)"
 #EXTVLCOPT:network-caching=333
