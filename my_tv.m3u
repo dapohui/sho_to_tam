@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:0,VIDEO TEST
+rtsp://192.168.31.201/user=admin&password=br30web&channel=1&stream=1.sdp?real_stream
 #EXTINF:0,Краснодар
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
