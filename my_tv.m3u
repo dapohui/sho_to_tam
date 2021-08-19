@@ -12,21 +12,25 @@ https://stream.kuban24.tv:1500/hls/stream.m3u8
 #EXTVLCOPT:network-caching=333
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:0,РЕН ТВ
+https://s10390.glaz.tv:8082/liveg/rentv-hq.stream/chunks.m3u8
+#EXTINF:0,РЕН ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8?version=2
 #EXTINF:0,Первый канал HD
-#EXTVLCOPT:http-user-agent=WINK/1.28.2
-#EXTVLCOPT:network-caching=333
 http://plmgr-moretv.cdnvideo.ru/1tvstream/playlist.m3u8
+#EXTINF:0,Первый канал HD
+https://edge4.1internet.tv/dash-live11/streams/1tv/1tvdash.mpd
 #EXTINF:0,Россия 1 HD
-#EXTVLCOPT:http-user-agent=WINK/1.28.2
-#EXTVLCOPT:network-caching=333
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist_4.m3u8
 #EXTINF:0,Матч!
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=2
+#EXTINF:0,Матч!
+https://s10390.glaz.tv:8082/liveg/matchtv-hq.stream/chunks.m3u8
+#EXTINF:0,НТВ
+https://mob4-ntv.cdnvideo.ru/ntv/smil:ntvair003.smil/manifest.mpd?e=1629898579&md5=fGW5ZY-L5XJkMm4sChkHbw
 #EXTINF:0,НТВ
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
@@ -36,19 +40,17 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8?version=2
 #EXTVLCOPT:network-caching=333
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8?version=2
 #EXTINF:0,Россия Культура
-#EXTVLCOPT:network-caching=333
-http://radio-live-mg.rtr-vesti.ru/live/smil:russiak.smil/chunklist_b1600000.m3u8
+https://s20585.glaz.tv:8082/liveg/rossiyak.stream/chunks.m3u8?nimblesessionid=1827494696&wmsAuthSign=c2VydmVyX3RpbWU9OC8xOC8yMDIxIDY6NTQ6NDEgUE0maGFzaF92YWx1ZT1LRTd0M091NUVKNklNN2hDVWdESXhBPT0mdmFsaWRtaW51dGVzPTIwMA==
 #EXTINF:0,Россия 24
-#EXTVLCOPT:network-caching=333
-http://radio-live-mg.rtr-vesti.ru/vgtrkrtmp/kuban_r24.smil/chunklist_b1200000.m3u8
+http://radio-live-mg.rtr-vesti.ru/live/smil:r24.smil/chunklist_b1200000.m3u8
 #EXTINF:0,ОТР
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
 http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8?version=2
 #EXTINF:0,ТВЦ
-#EXTVLCOPT:http-user-agent=WINK/1.28.2
-#EXTVLCOPT:network-caching=333
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/chunklist_b1703000.m3u8
+#EXTINF:0,СТС
+https://s10390.glaz.tv:8082/liveg/sts-hq.stream/chunks.m3u8
 #EXTINF:0,СТС
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
@@ -58,9 +60,13 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8?version=2
 #EXTVLCOPT:network-caching=333
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8?version=2
 #EXTINF:0,ТНТ
+https://s10390.glaz.tv:8082/liveg/tnt-hq.stream/chunks.m3u8
+#EXTINF:0,ТНТ
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8?version=2
+#EXTINF:0,ТНТ4
+https://sc.id-tv.kz/tnt4_36_37.m3u8
 #EXTINF:0,ТНТ4
 #EXTVLCOPT:http-user-agent=WINK/1.28.2
 #EXTVLCOPT:network-caching=333
